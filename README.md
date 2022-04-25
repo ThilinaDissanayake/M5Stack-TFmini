@@ -22,3 +22,15 @@ The pin arrangement between the sensor and the M5Stack is as follows.
 
 This code was based on the following article. 
 https://ambidata.io/samples/m5stack/tfminis/
+
+#Error handling
+
+When the TFmini sensor and the M5Stack is connected according to the above configuration, the following error is displayed. 
+
+```A fatal error occurred: Timed out waiting for packet header```
+
+For M5Stack Basic model, this error is displayed when a jumper cable is connected to the GPIO dedicated to the serial communication.
+In order to resolve this proble, disconnect the jumper cable connected to GPIO2 while the sketch gets compiled and uploaded to the board.
+Once the sketch is uploded, reconnect the cable. 
+
+Reference: https://www.mgo-tec.com/blog-entry-trouble-shooting-esp32-wroom.html/3
