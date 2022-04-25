@@ -23,7 +23,7 @@ The pin arrangement between the sensor and the M5Stack is as follows.
 This code was based on the following article. 
 https://ambidata.io/samples/m5stack/tfminis/
 
-#Error handling
+## Error handling ##
 
 When the TFmini sensor and the M5Stack is connected according to the above configuration, the following error is displayed. 
 
