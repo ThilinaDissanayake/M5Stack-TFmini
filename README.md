@@ -19,3 +19,6 @@ The pin arrangement between the sensor and the M5Stack is as follows.
 | 5V  | 5V |
 | RXD/SDA | 2 |
 | TXD/SCL  | 5 |
+
+This code was based on the following article. 
+https://ambidata.io/samples/m5stack/tfminis/
