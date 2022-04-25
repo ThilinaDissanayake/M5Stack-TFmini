@@ -33,4 +33,4 @@ For M5Stack Basic model, this error is displayed when a jumper cable is connecte
 In order to resolve this proble, disconnect the jumper cable connected to GPIO2 while the sketch gets compiled and uploaded to the board.
 Once the sketch is uploded, reconnect the cable. 
 
-Reference: https://www.mgo-tec.com/blog-entry-trouble-shooting-esp32-wroom.html/3
+(Reference: https://www.mgo-tec.com/blog-entry-trouble-shooting-esp32-wroom.html/3)
