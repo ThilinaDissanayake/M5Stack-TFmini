@@ -1,4 +1,4 @@
-# M5Stack-TFmini-S
+# M5Stack-TFmini
 
 This sketch works with M5Stack basic model and the TFmini-S and TFmini Plus LiDAR modules.
 It takes the distance measurements and displays on the LCD sceen of the M5Stack.
